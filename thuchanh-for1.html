@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thực hành vòng lặp for </title>
+</head>
+<body>
+        <h2><b>thực hành javasript</b></h2>
+        <button type="button" onclick="click1();" value="">click</button>
+        <p id="aaa"></p>
+        <script type="text/javascript">
+            //bai 1: viết chương trình in chuỗi "this is number N" 5 lần bằng cách sử dụng vòng lặp for
+           let text="";
+           for (let i=0; i<=5;i++) {
+               text += "this is number :"+i+"<br>";
+           }
+         function click1() {
+            document.getElementById("aaa").innerHTML=text;
+
+         }
+
+        </script>
+
+
+</body>
+</html>
